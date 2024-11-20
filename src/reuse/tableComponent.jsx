@@ -2,7 +2,7 @@ import React from "react";
 
 const TodosTable = ({ todos }) => {
   return (
-    <div style={{ overflowX: "auto" }}> {/* Horizontal scroll for the table */}
+    <div style={{ overflowX: "auto" }}>
       <table
         style={{
           width: "100%",
@@ -39,13 +39,13 @@ const tableHeaderStyle = {
   padding: "10px",
   border: "1px solid #ddd",
   textAlign: "left",
-  minWidth: "150px", // Ensure minimum width for horizontal scrolling
+  minWidth: "150px",
 };
 
 const tableCellStyle = {
   padding: "10px",
   border: "1px solid #ddd",
-  minWidth: "150px", // Ensure minimum width for horizontal scrolling
+  minWidth: "150px",
 };
 
 export default TodosTable;
